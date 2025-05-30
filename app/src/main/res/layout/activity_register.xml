@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:orientation="vertical"
+    android:background="#FFF6F9"
+    android:paddingTop="?attr/actionBarSize"
+    android:fitsSystemWindows="true">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Kalkulator Sederhana : Bill Collen"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/inputAngka1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:hint="Angka pertama"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/inputAngka2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:hint="Angka kedua"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnTambah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/rounded_button"
+        android:text="Tambah"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnKali"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/rounded_button"
+        android:text="Kali"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnBagi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_button"
+        android:text="Bagi"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textViewHasilLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Hasil"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewHasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="0"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+</LinearLayout>
